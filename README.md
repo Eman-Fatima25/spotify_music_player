@@ -1,6 +1,6 @@
 # 🎵 Spotify Music Management System
 
-A comprehensive music management system demonstrating **Data Structures and Algorithms** concepts using C++, with a Python Flask backend and modern web interface.
+A comprehensive music management system demonstrating **Data Structures and Algorithms** concepts using C++,Eman with a Python Flask backend and modern web interface.
 
 ## 📋 Project Overview
 
