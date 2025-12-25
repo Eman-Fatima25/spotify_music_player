@@ -1,0 +1,34 @@
+{
+  "songs": [
+    {
+      "id": "song-1765190335131",
+      "name": "Eman1",
+      "artist": "Eman",
+      "playCount": 1,
+      "filePath": "/music/Eman1.mp3"
+    },
+    {
+      "id": "song-1765190372573",
+      "name": "Marjan1",
+      "artist": "Marjan",
+      "playCount": 1,
+      "filePath": "/music/Marjan1.mp3"
+    }
+  ],
+  "recentlyPlayed": [
+    {
+      "id": "song-1765190372573",
+      "name": "Marjan1",
+      "artist": "Marjan",
+      "playCount": 1,
+      "filePath": "/music/Marjan1.mp3"
+    },
+    {
+      "id": "song-1765190335131",
+      "name": "Eman1",
+      "artist": "Eman",
+      "playCount": 1,
+      "filePath": "/music/Eman1.mp3"
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Music Management System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="logo">
+                    <span class="logo-icon">🎵</span>
+                    Spotify Music Player
+                </h1>
+                <p class="subtitle">Data Structures & Algorithms Project</p>
+            </div>
+        </header>
+
+        <!-- Add Song Section -->
+        <section class="add-song-section">
+            <h2 class="section-title">Add New Song</h2>
+            <div class="add-song-form">
+                <div class="form-group">
+                    <input type="text" id="songName" class="input-field" placeholder="Song Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="artistName" class="input-field" placeholder="Artist Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="genreName" class="input-field" placeholder="Genre (Optional)">
+                </div>
+                <button class="btn btn-primary" onclick="addSong()">
+                    <span>➕</span> Add Song
+                </button>
+            </div>
+        </section>
+
+        <!-- Search and Controls -->
+        <section class="controls-section">
+            <div class="search-container">
+                <input type="text" id="searchInput" class="search-input" placeholder="🔍 Search songs or artists...">
+                <button class="btn btn-secondary" onclick="searchSongs()">Search</button>
+                <button class="btn btn-outline" onclick="clearSearch()">Clear</button>
+            </div>
+            
+            <div class="sort-controls">
+                <button class="btn btn-secondary" onclick="sortSongs('name')">
+                    <span>🔤</span> Sort A-Z
+                </button>
+                <button class="btn btn-secondary" onclick="sortSongs('play_count')">
+                    <span>🔥</span> Sort by Plays
+                </button>
+            </div>
+        </section>
+
+        <!-- Main Content Grid -->
+        <div class="content-grid">
+            <!-- All Songs -->
+            <section class="card">
+                <h2 class="card-title">
+                    <span class="title-icon">📚</span>
+                    Song Library
+                    <span class="song-count" id="songCount">0 songs</span>
+                </h2>
+                <div class="song-list" id="songsList">
+                    <div class="empty-state">
+                        <p>No songs yet. Add your first song!</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Recently Played -->
+            <section class="card">
+                <h2 class="card-title">
+                    <span class="title-icon">⏱️</span>
+                    Recently Played
+                    <button class="btn-clear" onclick="clearRecentlyPlayed()">Clear</button>
+                </h2>
+                <div class="song-list" id="recentList">
+                    <div class="empty-state">
+                        <p>No recently played songs</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Audio Player -->
+        <div class="audio-player" id="audioPlayer" style="display: none;">
+            <div class="player-info">
+                <div class="now-playing-icon">🎵</div>
+                <div class="player-text">
+                    <div class="player-label">Now Playing</div>
+                    <div class="player-song" id="nowPlayingSong">-</div>
+                    <div class="player-artist" id="nowPlayingArtist">-</div>
+                </div>
+            </div>
+            <audio id="audioElement" controls></audio>
+            <div class="player-controls">
+                <button class="btn-player" onclick="togglePlayPause()">⏯️</button>
+                <button class="btn-player" onclick="stopMusic()">⏹️</button>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>Built with C++ (DSA), Python (Flask), and HTML/CSS</p>
+            <p class="tech-stack">
+                <span class="tech-badge">Linked List</span>
+                <span class="tech-badge">Stack</span>
+                <span class="tech-badge">Bubble Sort</span>
+                <span class="tech-badge">Selection Sort</span>
+            </p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/app.js') }}"></script>
+</body>
+</html>
