@@ -1,4 +1,49 @@
 # 🎵 Spotify Music Management System
+# DSA Music Management System
+
+## 👥 Group Details
+- **Member Name:** Marjan Ikram  
+- **Registration ID:** B24F1088CS084  
+
+---
+
+## 🎵 Project Title & Description
+**Project Title:** Comprehensive Music Management System  
+
+**Description:**  
+A comprehensive music management system demonstrating **Data Structures and Algorithms** concepts using C++, with a Python Flask backend and a modern web interface. The project showcases Linked Lists, Stack, Sorting Algorithms, and database integration with a functional music player.
+
+---
+
+## 📹 Visuals
+
+### Main Application Screenshot
+![Spotify Music Player UI](assets/screenshots/spotify_ui.png)
+
+
+---
+
+## 📝 Supervision Note
+"This project was developed for the Data Structures and Algorithms (DSA) course under the supervision of Lab Engineer Obaidullah Miakhil."
+
+---
+
+## 📋 Project Overview
+This project implements a fully functional music player that demonstrates:
+- **Linked List** - Dynamic song library management
+- **Stack** - Recently played songs (LIFO)
+- **Sorting Algorithms** - Bubble Sort & Selection Sort
+- **Database** - SQLite for persistent storage
+- **Web Interface** - Beautiful, responsive UI
+
+## 🛠️ Technology Stack
+- **C++** - Core DSA implementations
+- **Python 3.x** - Flask web server
+- **SQLite** - Database management
+- **HTML5/CSS3** - Modern frontend
+- **JavaScript** - Client-side logic
+
+## 📁 Project Structure
 
 A comprehensive music management system demonstrating **Data Structures and Algorithms** concepts using C++,Eman with a Python Flask backend and modern web interface.
 
