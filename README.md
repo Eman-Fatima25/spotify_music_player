@@ -1,5 +1,4 @@
 # 🎵 Spotify Music Management System
-# DSA Music Management System
 
 ## 👥 Group Details
 - **Member Name:** Marjan Ikram  
