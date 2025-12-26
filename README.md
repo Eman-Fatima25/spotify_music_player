@@ -18,6 +18,7 @@ A comprehensive music management system demonstrating **Data Structures and Algo
 
 ### Main Application Screenshot
 ![Spotify Music Player UI](assets/screenshots/spotify_ui.png)
+<img width="940" height="452" alt="image" src="https://github.com/user-attachments/assets/f79814b7-0c48-4c92-ac1c-e6509b10303c" />
 
 
 ---
