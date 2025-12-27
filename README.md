@@ -1,4 +1,4 @@
-# 🎵 Spotify Music System
+# 🎵 Spotify Music Player
 
 ## 👥 Group Details
 - **Member Name:** Marjan Ikram  
@@ -7,7 +7,7 @@
 ---
 
 ## 🎵 Project Title & Description
-**Project Title:**Spotify Music Management System  
+**Project Title:**Spotify Music Player
 
 **Description:**  
 A comprehensive music management system demonstrating **Data Structures and Algorithms** concepts using C++, with a Python Flask backend and a modern web interface. The project showcases Linked Lists, Stack, Sorting Algorithms, and database integration with a functional music player.
