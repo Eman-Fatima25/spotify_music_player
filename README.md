@@ -1,4 +1,4 @@
-# 🎵 Spotify Music Management System
+# 🎵 Spotify Music System
 
 ## 👥 Group Details
 - **Member Name:** Marjan Ikram  
